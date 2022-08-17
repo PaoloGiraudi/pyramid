@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Pyramid</title>
+  </head>
+  <body>
+    <h1>Pyramid Slide</h1>
+    <hr />
+    <div class="input">
+      <label for="rows-input">Number of rows: </label>
+      <input id="rows-input" name="rows-input" type="number" />
+      <button onclick="submit()">Generate Pyramid</button>
+      <button onclick="submit('one')">Generate Example One</button>
+      <button onclick="submit('two')">Generate Example Two</button>
+    </div>
+    <hr />
+    <div class="output">
+      <div>
+        <h2>Pyramid</h2>
+        <ul id="pyramid-container"></ul>
+      </div>
+      <div>
+        <h2>Result</h2>
+        <h3 id="result-container"></h3>
+      </div>
+    </div>
+  </body>
+</html>

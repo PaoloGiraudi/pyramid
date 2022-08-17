@@ -1,0 +1,34 @@
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.input > * + * {
+  margin-left: 0.5rem;
+}
+
+.output {
+  width: 100%;
+  display: flex;
+}
+
+.output > div {
+  width: 50%;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
